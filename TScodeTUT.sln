@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "TScodeTUT", "TScodeTUT.njsproj", "{EAFB6445-ECFF-4A3C-9D74-50EEF0700CA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAFB6445-ECFF-4A3C-9D74-50EEF0700CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAFB6445-ECFF-4A3C-9D74-50EEF0700CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAFB6445-ECFF-4A3C-9D74-50EEF0700CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAFB6445-ECFF-4A3C-9D74-50EEF0700CA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F212DE0-E87D-485C-A988-E3B0F90E7105}
+	EndGlobalSection
+EndGlobal
