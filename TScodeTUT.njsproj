@@ -36,6 +36,9 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="point.ts" />
+    <TypeScriptCompile Include="RecursionTUT.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
     <TypeScriptCompile Include="Ticketo.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>

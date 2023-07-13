@@ -8,7 +8,7 @@
 //import { point , Ticketo }
 import { Point } from './point';
 import { Ticketo } from './Ticketo';
-
+import { RecursionTUT } from './RecursionTUT';
 let point = new Point(1, 2);
 let point2: Point;
 let point3 = new Point;
@@ -38,15 +38,25 @@ let backgrounColor = Color.Red;
 
 q = 6
 
-let getDistance = (pointA: Point, pointB: Point) => {
+let getDistance = (pointA: Point, pointB: Point) => {}
 
-}
-
-function doSomething() {
+function doSomething() // this is an out of bounds waiting to hap
+{
+    var edd = new RecursionTUT();
     for (var i = 0; i < 5; i++) {
         console.log(i);
+        edd.Recur(i, doSomething());
+        edd.Recur(i, doSomething());
     }
+    
     console.log('Finally: ' + i);
+    //returns 15*2 times
+    // 15 calls = of memory complexity
+
+    //spacial complexity
+    // memory used in each function call * max depth
+    // it is 30
+
 }
 
 let log = function (message) {
@@ -55,8 +65,6 @@ let log = function (message) {
 
 let doLog = (message) => console.log(message);
 
-let drawPoint = (point: { x: Point, y: Point }) => {
-
-}
+let drawPoint = (point: { x: Point, y: Point }) => {}
 
 doSomething();
